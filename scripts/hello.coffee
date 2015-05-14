@@ -13,3 +13,5 @@ module.exports = (robot) ->
     res.send 'キモイ…'
   robot.hear /チノちゃんに罵られると興奮する/, (res) ->
     res.send '踏みますよ？'
+  robot.hear /コーヒー/, (res) ->
+    res.send 'コーヒーごくごく'
