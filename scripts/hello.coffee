@@ -1,4 +1,6 @@
 module.exports = (robot) ->
+  robot.hear /朝だ/, (res) ->
+    res.send 'おはようございます'
   robot.hear /昼だ/, (res) ->
     res.send 'こんにちは'
   robot.hear /夜だ/, (res) ->
@@ -14,4 +16,6 @@ module.exports = (robot) ->
   robot.hear /チノちゃんに罵られると興奮する/, (res) ->
     res.send '踏みますよ？'
   robot.hear /コーヒー/, (res) ->
+    res.send 'コーヒーごくごく'
+  robot.hear //, (res) ->
     res.send 'コーヒーごくごく'
