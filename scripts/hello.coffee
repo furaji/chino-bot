@@ -7,3 +7,7 @@ module.exports = (robot) ->
     res.send 'ぴょんぴょん'
   robot.hear /スク水/, (res) ->
     res.send '私のスク水が見たいですか？'
+  robot.hear /見せて/, (res) ->
+    res.send 'す、少しだけですよ…'
+  robot.hear /ぶひぃ/, (res) ->
+    res.send 'キモイ…'
