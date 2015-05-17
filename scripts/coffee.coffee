@@ -1,6 +1,6 @@
 module.exports = (robot) ->
   robot.hear /コーヒー飲みたい/, (res) ->
-    msg.send msg.random [
+    res.send res.random [
       "ブルーマウンテンなどどうでしょう？",
       "キリマンジャロなどどうじゃろ？",
       "ガテマラなどどうでしょう？",
