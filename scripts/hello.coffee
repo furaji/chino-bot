@@ -19,3 +19,5 @@ module.exports = (robot) ->
     res.send 'コーヒーごくごく'
   robot.hear /かわいい/, (res) ->
     res.send '照れます'
+  robot.hear /今何時/, (res) ->
+    res.send "#{(new Date()).getHours()}時です"
