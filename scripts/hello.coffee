@@ -1,6 +1,6 @@
 module.exports = (robot) ->
   robot.hear /朝だ/, (res) ->
-    if [5..12] in (new Date()).getHours()
+    if (new Date()).getHours() in [5..12]
       res.send 'おはようございます'
     else
       res.send '体内時計ずれてるんですか？'
