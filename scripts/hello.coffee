@@ -24,3 +24,5 @@ module.exports = (robot) ->
     res.send "#{(new Date()).getHours()}時です"
   robot.hear /帰宅/, (res) ->
     res.send 'お疲れ様です。\r\n今日はゆっくり休んでください。'
+  robot.hear /寝よう/, (res) ->
+    res.send 'おやすみなさい'
