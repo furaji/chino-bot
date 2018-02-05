@@ -26,3 +26,5 @@ module.exports = (robot) ->
     res.send 'お疲れ様です。\r\n今日はゆっくり休んでください。'
   robot.hear /寝よう/, (res) ->
     res.send 'おやすみなさい'
+  robot.hear /将来の夢/, (res) ->
+    res.send 'みんなダメ'
